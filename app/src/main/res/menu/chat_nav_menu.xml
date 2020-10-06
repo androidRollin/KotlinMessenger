@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/chat_user_call"
+        android:icon="@drawable/call_phone_icon"
+        android:title="New Message"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/video_chat"
+        android:icon="@drawable/video_chat"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/chat_user_information"
+        android:icon="@drawable/information_logo"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
